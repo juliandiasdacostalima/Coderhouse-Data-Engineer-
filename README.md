@@ -10,12 +10,12 @@ Además, se creó una alerta para informar si la base por alguna razón no se es
 Para iniciar el proyecto solo basta con descargar el código, levantar el docker con <docker compose up> y listo, los dags se levantarán automáticamente junto con config.ini, aquí se encuentran las credenciales, es importante que el formato de este archivo se contenga y debe ser el siguiente:
 
 [Email]
-username = <username>
-password = <password>
+username = username
+password = password
 
 [redshift_coder]
-dbname = <base de datos>
-user = <usuario>
-password = <contraseña>
-host = <host>
-port = <puerto>
+dbname = base de datos
+user = usuario
+password = contraseña
+host = host
+port = puerto
